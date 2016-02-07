@@ -67,6 +67,12 @@ a:active, a:hover{
 .btn:hover, .btn:active{
   background-color: #333;
 }
+.nav-link{
+  max-width: 640px;
+}
+.nav-link a{
+  text-decoration: none;
+}
 
 .page-header{
   background-color: #333;
