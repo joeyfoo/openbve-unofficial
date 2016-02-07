@@ -10,7 +10,7 @@ section,footer{
   background-color: #fff;
 }
 
-p,h1,h2,h3,h4,h5,h6,img,div,ul{
+p,h1,h2,h3,h4,h5,h6,img,div,ul,hr{
   max-width:540px;
   margin: 14px auto;
   display: block;
@@ -45,7 +45,7 @@ h1{
   margin-bottom: 0;
 }
 
-h2,h3,h4,h5,h6{
+h2,h3{
   margin-top: 1rem;
   font-weight: normal;
 }
