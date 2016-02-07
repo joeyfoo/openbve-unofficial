@@ -120,7 +120,8 @@ nav .active{
 
 footer{
   background: none;
-  color: #fff;
+  color: #ccc;
+  font-size: 12px;
   padding: 4px 16px;
 }
 footer a, footer a:visited{
