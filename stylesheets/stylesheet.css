@@ -95,6 +95,7 @@ a:active, a:hover{
   background-size: 32px;
   background-repeat: no-repeat;
   font-size: 18px;
+  font-weight: bold;
   line-height: 1em;
   padding: 7px 0 7px 40px;
   text-decoration: none;
