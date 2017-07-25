@@ -36,12 +36,16 @@
     <style type="text/css">
       .info-box{
         background-color: #fd9;
-        padding: 4px;
+        display: flex;
+        flex-direction: row;
+      }
+      .info-box-panel{
+        flex: 1 1 50%;
+        padding: 8px;
         text-align: center;
       }
-      .info-box strong{
-        font-size: 26px;
-        font-weight: normal;
+      .info-box-panel:not(:last-child){
+        border-right: 1px solid #960;
       }
     </style>
     <script>
@@ -80,15 +84,27 @@
       
       <h2>Latest release</h2>
       <div class="info-box">
-        <p>
-          Latest stable release: <strong>1.4.5.0</strong>, released 9 February 2016
-        </p>
-        <p class="nav-link"><a href="download.html" class="btn">Download openBVE</a> <a href="changelog.html">Changelog</a></p>
+        <div class="info-box-panel">
+          <h3>Lastest official release</h3>
+          <p>
+            The last official update by the original openBVE team.
+          </p>
+          <p>
+            <strong>v1.4.5.0</strong>, released 9 February 2016
+          </p>
+          <p class="nav-link"><a href="download.html" class="btn">Download 1.4.5.0</a> <a href="changelog.html">Changelog</a></p>
+        </div>
+        <div class="info-box-panel">
+          <h3>Project forks</h3>
+          <p>
+            Development of openBVE is being continued by leezer3, with new features being constantly added.
+          </p>
+          <p class="nav-link"><a href="http://openbve-project.net/" class="btn">Project website &gt;</a></p>
+        </div>
       </div>
       
       <h2>About this site</h2>
-      <p>This unoffical site was set up to provide a reliable place to download openBVE, as well as to provide easy access to
-        development tools and documentation.</p>
+      <p>This unoffical site was set up to provide a reliable place to download openBVE, as well as to provide easy access to development tools and documentation.</p>
       <p>You can read more on the <a href="about.html">About</a> page.</p>
     </section>
 
